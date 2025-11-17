@@ -141,20 +141,4 @@ If the first sentence is transcribed before you get to the second one, raise pos
     AudioToTextRecorder(model="tiny.en", language="en", spinner=False, post_speech_silence_duration = 1.5) 
     ```
     
-## Contributing
-
-Contributions to enhance or improve the project are warmly welcomed. Feel free to open a pull request with your proposed changes or fixes.
-
-## License
-
-The project is under [Coqui Public Model License 1.0.0](https://coqui.ai/cpml).
-
-This license allows only non-commercial use of a machine learning model and its outputs.
-
-
-## Contact
-
-Kolja Beigel  
-- Email: [kolja.beigel@web.de](mailto:kolja.beigel@web.de)  
-
 Feel free to reach out for any queries or support related to this project.
