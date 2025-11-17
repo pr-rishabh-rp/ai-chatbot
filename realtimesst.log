@@ -1,0 +1,5 @@
+RealTimeSTT: root - WARNING - Audio queue size exceeds latency limit. Current size: 838. Discarding old audio chunks.
+RealTimeSTT: root - ERROR - Unhandled exeption in _recording_worker: 
+RealTimeSTT: root - WARNING - Audio queue size exceeds latency limit. Current size: 238. Discarding old audio chunks.
+RealTimeSTT: root - ERROR - Unhandled exeption in _recording_worker: 
+RealTimeSTT: root - ERROR - Unhandled exeption in _recording_worker: 
