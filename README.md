@@ -2,24 +2,19 @@
 
 Provides talk in realtime with AI, completely local on your PC, with customizable AI personality and voice.
 
-> **Hint:** *Anybody interested in state-of-the-art voice solutions please also <strong>have a look at [Linguflex](https://github.com/KoljaB/Linguflex)</strong>. It lets you control your environment by speaking and is one of the most capable and sophisticated open-source assistants currently available.*
-
-> **Note:** If you run into 'General synthesis error: isin() received an invalid combination of arguments' error, this is due to new transformers library introducing an incompatibility to Coqui TTS (see [here](https://github.com/KoljaB/RealtimeTTS/issues/85)). Please downgrade to an older transformers version: `pip install transformers==4.38.2` or upgrade RealtimeTTS to latest version `pip install realtimetts==0.4.1`.
+> **Note:** If you run into 'General synthesis error: isin() received an invalid combination of arguments' error, this is due to new transformers library introducing an incompatibility to Coqui TTS . Please downgrade to an older transformers version: `pip install transformers==4.38.2` or upgrade RealtimeTTS to latest version `pip install realtimetts==0.4.1`.
 
 ## About the Project
 
 Integrates the powerful Zephyr 7B language model with real-time speech-to-text and text-to-speech libraries to create a fast and engaging voicebased local chatbot. 
 
-
-> **Hint:** If you run into problems installing llama.cpp please also have a look into my [LocalEmotionalAIVoiceChat project](https://github.com/KoljaB/LocalEmotionalAIVoiceChat). It includes emotion-aware realtime text-to-speech output and has multiple LLM provider options. You can also use it with different AI models. 
-
 ## Tech Stack
 
-- **[llama_cpp](https://github.com/ggerganov/llama.cpp)** with Zephyr 7B  
+- **[llama_cpp]** with Zephyr 7B  
   - library interface for llamabased language models
-- **[RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)** with faster_whisper  
+- **[RealtimeSTT]** with faster_whisper  
   - real-time speech-to-text transcription library
-- **[RealtimeTTS](https://github.com/KoljaB/RealtimeTTS)** with Coqui XTTS  
+- **[RealtimeTTS]** with Coqui XTTS  
   - real-time text-to-speech synthesis library
 
 ## Notes
