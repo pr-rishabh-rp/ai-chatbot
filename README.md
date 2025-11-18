@@ -10,7 +10,6 @@ Provides talk in realtime with AI, completely local on your PC, with customizabl
 
 Integrates the powerful Zephyr 7B language model with real-time speech-to-text and text-to-speech libraries to create a fast and engaging voicebased local chatbot. 
 
-https://github.com/KoljaB/LocalAIVoiceChat/assets/7604638/cebacdad-8a57-4a03-bfd1-a469730dda51
 
 > **Hint:** If you run into problems installing llama.cpp please also have a look into my [LocalEmotionalAIVoiceChat project](https://github.com/KoljaB/LocalEmotionalAIVoiceChat). It includes emotion-aware realtime text-to-speech output and has multiple LLM provider options. You can also use it with different AI models. 
 
